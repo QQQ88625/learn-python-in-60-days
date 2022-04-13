@@ -12,7 +12,7 @@ y = input()
 y = int(y)
 for i in range(y):
     for j in range(i+1):
-        print(j, end='')
+         print(j, end='')
     print("")
 
 # rectangle
