@@ -33,8 +33,10 @@ with open("data1.csv", "r") as f:
 
         line = line.split(",")
         line_sum = 0
+        line_average = 0
         for i in range(1, len(line)):
-            line_sum += int(line[i])
+            line_sum += int(line[i]) 
+            line_average = line_sum/(len(line)-1)
         
-        print(line[0], line_sum)
+        print(line[0], line_sum, line_average)
 print(content)
